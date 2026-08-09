@@ -110,7 +110,7 @@ export default function Page() {
             name={name} role={role} title={title}
             onNameChange={setName} onRoleChange={setRole} onTitleChange={setTitle}
           />
-          <ActionBar canAct={canAct} statusText={statusText} onDownload={handleDownload} onShare={handleShare} disabled={sharing} />
+          <ActionBar canAct={canAct} statusText={statusText} onDownload={handleDownload} onShare={handleShare} />
         </div>
       </main>
 
